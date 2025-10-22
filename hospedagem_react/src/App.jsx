@@ -10,6 +10,7 @@ import {
   Zap,
   Sparkles,
   Sparkle,
+  Clock,
 } from "lucide-react";
 
 const navLinks = [
@@ -259,6 +260,46 @@ function App() {
               </footer>
             </blockquote>
           ))}
+        </div>
+      </section>
+
+      {/* Preço */}
+      <section id="pricing" className="mx-auto max-w-6xl px-4 py-8 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+          <div>
+            <h2 className="text-3xl font-bold">
+              Plano único, sem complicação!
+            </h2>
+            <p className="text-slate-300 mt-4 max-w-2xl">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              magnam aut velit ullam veniam beatae, hic ex blanditiis.
+            </p>
+            <ul className="mt-4 space-y-2 text-sm text-slate-300">
+              <li className="flex items-center gap-2">
+                <Check className="size-4 text-emerald-400" /> Benefício 1
+              </li>
+              <li className="flex items-center gap-2">
+                <Check className="size-4 text-emerald-400" /> Benefício 2
+              </li>
+              <li className="flex items-center gap-2">
+                <Check className="size-4 text-emerald-400" /> Benefício 3
+              </li>
+            </ul>
+          </div>
+          <div className="rounded-3xl border border-white/10 bg-white[0.02] p-8">
+            <div className="texte-sm text-slate-400">A partir de</div>
+            <div className="text-5xl font-extrabold mt-2">R$ 199,90</div>
+            <div className="text-sm text-slate-300 mt-4 flex items-center gap-2">
+              <Clock className="size-4 text-amber-400 m-1" />
+              <p>Somente hoje!</p>
+            </div>
+            <button
+              href="#"
+              className="mt-6 rounded-2xl cursor-pointer bg-fuchsia-600 px-6 py-3 font-medium hover:bg-fuchsia-400"
+            >
+              Comprar agora!
+            </button>
+          </div>
         </div>
       </section>
     </div>
