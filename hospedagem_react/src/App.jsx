@@ -297,7 +297,7 @@ function App() {
               href="#"
               className="mt-6 rounded-2xl cursor-pointer bg-fuchsia-600 px-6 py-3 font-medium hover:bg-fuchsia-400"
             >
-              Comprar agora!
+              Comprar Agora!
             </button>
           </div>
         </div>
